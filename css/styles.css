@@ -12,12 +12,15 @@
     border-radius: 35px;
 }
 nav{
-    min-height: 100px !important;
-    background-color: darkgrey;
+    min-height: 120px !important;
+    background-color: rgb(112, 100, 100);
+    color:darkseagreen;
+
 }
 nav ul{
     display: inline;
     float: right;
+
 }
 ul li{
     display: inline;
@@ -33,6 +36,7 @@ ul li a{
 }
 ul li a:hover{
     text-decoration: none;
+    color: darkseagreen;
 }
 
 ul li:hover{
@@ -48,8 +52,69 @@ ul li:hover{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
     font-style: italic;
-    color: black;
+    color: white;
+    text-shadow: slategray;
 }
 ul li i{
     margin-right: 1%;
+}
+.pizza, .crust{
+    margin-top: 1%;
+    min-height: 90%;
+    margin-bottom: 2%;
+}
+.pp1{
+    height: 200px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    /* border: 1px solid bl; */
+}
+.pp1 img{
+    /* border: ; */
+    border: 1px solid black;
+}
+.pizzas{
+    margin-top:1%;
+    width: 40%;
+    background: red;
+    border-radius: 10%;
+}
+.pp1 label{
+    float: right;
+    margin-top: 1%;
+}
+.hh{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+footer{
+    min-height:300px;
+    background-color: rgb(112, 100, 100);
+    margin-top: 2px solid black;
+}
+.f1{
+    min-height: 120px;
+    /* background-color: red; */
+    margin-left: 6.5%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+}
+@media(max-width:975px){
+    .f1{
+        border-bottom: 1px solid black;
+        margin-bottom: 2%;
+        margin-top: 2%;
+
+    }
+
+}
+@media(max-width:760px){
+    #menu{
+        display: hidden;
+    }
+}
+.f2{
+    border-top:2px solid black;
+    float: left;
 }

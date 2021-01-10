@@ -12,19 +12,25 @@
 </head>
 <body>
    <!-- navbar -->
-   <nav class="navbar bg-dark">
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
        <div class="n1 navbar-brand pull-left col-md-4">
          <p> <img class="pull-left" src="images/icon">
             <h3>Pizza Eats</h3>
         </p>        
         </div>
+        <button class="navbar-toggler pull-right"  type="button" data-toggle="collapse" data-target="#nav-a" aria-controls="#nav-a" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i id="menu" class="fa fa-bars" style="width: 30px;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-a">
+            <ul class=" navbar-nav mr-auto pull-right col-lg-4 col-md-6 com-sm-12" style="display: flex-wrap;">
+                <li class="nav-item"><i class="fa fa-home"><a href="index.html">Home</a></i></li>
+                <li class="nav-item"><i class="fa fa-book"><a href="index.html">About</a></i></li>
+                <li class="nav-item"><i class="fa fa-phone"><a href="index.html">Contact</a></i></li>
+ 
+             </ul>
+        </div>
        <navbar nav>
-           <ul class="col-md-6 pull-right">
-               <li class="nav-item"><i class="fa fa-home"><a href="index.html">Home</a></i></li>
-               <li class="nav-item"><i class="fa fa-book"><a href="index.html">About</a></i></li>
-               <li class="nav-item"><i class="fa fa-phone"><a href="index.html">Contact</a></i></li>
-
-            </ul>
+           
        </navbar>
    </nav>
 
@@ -41,23 +47,26 @@
   
     <!-- Wrapper for slides -->
     <div class=" c1 carousel-inner" style="margin-top: -1.5%;">
-      <div class="item active col-md-12" style="height: 500px;">
+      <div class="item active col-md-12" style="max-height: 500px;">
         <img src="images/p1.jpeg" width="100%" height="100%">
         <div class="carousel-caption">
+            <h1>Order Now</h1>
             <h4 class="text">We got you Sorted</h4>
         </div>
       </div>
   
-      <div class="item col-md-12" style="height: 500px;">
+      <div class="item col-md-12" style="max-height: 500px;">
         <img src="images/p2.jpg" width="100%" height="100%">
         <div class="carousel-caption">
+            <h1 class="text">Great Pizzas at Great Prices</h1>
             <h4 class="text">We the best in town</h4>
         </div>
       </div>
   
-      <div class="item col-md-12" style="height: 500px;">
+      <div class="item col-md-12" style="max-height: 500px;">
         <img src="images/p3.jpeg" width="100%" height="100%">
         <div class="carousel-caption">
+        
             <h4 class="text">Offering you the best</h4>
         </div>
       </div>
@@ -73,5 +82,67 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+
+    <!-- pizzzas -->
+    
+    <div class="pizza container">
+        <h1 class="hh text-center">Pizza Sizes.</h1>
+        <div class="pp1 col-md-4 ml-md-1">
+            <img src="images/p1.jpeg" width="100%" height="100%" alt="">
+            <button id="small" class="pizzas">Order Now</button>
+            <label for="">Pizza small</label>
+        </div>
+        <div class="pp1 col-md-4 ml-md-1">
+            <img src="images/pmedium.jpg" width="100%" height="100%" alt="">
+            <button id="small" class="pizzas">Order Now</button>
+            <label for="">Pizza Medium</label>
+        </div>
+        <div class="pp1 col-md-4 ml-md-1">
+            <img src="images/plarge.jpeg" width="100%" height="100%" alt="">
+            <button id="small" class="pizzas">Order Now</button>
+            <label for="">Pizza large</label>
+        </div>
+    </div>
+
+    <!-- crust -->
+
+    <div class="crust container">
+        <h1 class="hh text-center">Pizza Crusts.</h1>
+        <div class="pp1 col-md-4 ml-md-1">
+            <img src="images/crust.jpg" width="100%" height="100%" alt="">
+            <button id="small" class="pizzas">Choose Crust</button>
+            <label for="">Thin Crust</label>
+        </div>
+        <div class="pp1 col-md-4 ml-md-1">
+            <img src="images/crust.jpg" width="100%" height="100%" alt="">
+            <button id="small" class="pizzas">Choose crust</button>
+            <label for="">Flat Bread</label>
+        </div>
+        <div class="pp1 col-md-4 ml-md-1">
+            <img src="images/crust.jpg" width="100%" height="100%" alt="">
+            <button id="small" class="pizzas">Choose Crust</button>
+            <label for="">Thick Crust</label>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="f1 col-md-2 ml-md-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi saepe facere adipisci sapiente. Itaque reprehenderit inventore, exercitationem atque a eos repellendus nobis sint qui adipisci pariatur impedit provident quam!
+        </div>
+        <div class="f1 col-md-2 ml-md-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi saepe facere adipisci sapiente. Itaque reprehenderit inventore, exercitationem atque a eos repellendus nobis sint qui adipisci pariatur impedit provident quam!
+        </div>
+        <div class="f1 col-md-2 ml-md-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi saepe facere adipisci sapiente. Itaque reprehenderit inventore, exercitationem atque a eos repellendus nobis sint qui adipisci pariatur impedit provident quam!
+        </div>
+        <div class="f1 col-md-2 ml-md-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam modi saepe facere adipisci sapiente. Itaque reprehenderit inventore, exercitationem atque a eos repellendus nobis sint qui adipisci pariatur impedit provident quam!
+        </div>
+        <div class="f2 container-fluid col-md-12 text-center">
+            <h4>&copy;Pizza Eats 2020. All Rights Reserved!</h4>
+        </div>
+    </footer>
 </body>
 </html>
