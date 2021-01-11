@@ -1,0 +1,45 @@
+"status" : "success",
+"products":[
+    {
+        "name":"Pizza",
+        "size":"large",
+        "price":1200,
+        "image":"./images/pi.jpeg"
+    },
+    {
+        "name":"Pizza",
+        "size":"large",
+        "price":1200,
+        "image":"./images/pi.jpeg"
+    },
+    {
+        "name":"Pizza",
+        "size":"large",
+        "price":1200,
+        "image":"./images/pi.jpeg"
+    },
+    {
+        "name":"Pizza",
+        "size":"large",
+        "price":1200,
+        "image":"./images/pi.jpeg"
+    },
+    {
+        "name":"Pizza",
+        "size":"large",
+        "price":1200,
+        "image":"./images/pi.jpeg"
+    },
+    {
+        "name":"Pizza",
+        "size":"large",
+        "price":1200,
+        "image":"./images/pi.jpeg"
+    },
+    {
+        "name":"Pizza",
+        "size":"large",
+        "price":1200,
+        "image":"./images/pi.jpeg"
+    }
+]
