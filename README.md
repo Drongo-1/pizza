@@ -1,6 +1,3 @@
-# pizza
-It is website which will help to expand a pizza business it is developed using javascript
-
 # Title:
 PIZZA EATS.
 
@@ -10,10 +7,10 @@ PIZZA EATS.
 
 
 # Description
-It is a website that show the names of Ghanas people which is a major naming system in Ghana
+It is website which will help to expand a pizza business it is developed using javascript
 
 # Screenshot
-<image src="https://github.com/Drongo-1/akan-names/blob/master/images/akan screenshot.png?raw=true" width="800">
+<image src="https://github.com/Drongo-1/...?raw=true" width="800">
   
 # Technologies Used
 HTML5
@@ -25,15 +22,15 @@ Javascript
 Bootstrap 4
 
 # Set-up and Installation
-git Clone https://github.com/Drongo-1/akan-names.git
+git Clone https://github.com/Drongo-1/pizza.git
 
 Extract The file
 
-Cd into Akan-names folder
+Cd into pizza folder
 
 Open index.html on any browser
 
 # Live Link
-https://drongo-1.github.io/akan-names/
+https://drongo-1.github.io/pizza/
 
 # Known Bugs
