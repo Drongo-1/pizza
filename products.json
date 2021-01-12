@@ -1,5 +1,4 @@
-"status" : "success",
-"products":[
+var products="products":[
     {
         "name":"Pizza",
         "size":"large",

@@ -55,16 +55,48 @@ function renderCart(items) {
                 <td class="text-right"><Button class="btn btn-primary" class="col-sm-1" onClick="cartLS.remove(${item.id})">Delete</Button></td>
             </tr>
             <tr>
-            <td>   <input type="checkbox" id="deliver"></td>
-            <td> aaaaaaaaa</td>
-            <td><button id="btn" onclick="delivering()">Delivering</button></td>
+            <td>   Delivery :<input type="checkbox" id="deliver"></td>
+            <td> 
+                <label>Select topping</label>
+                <select name="" id="">
+                    <option value="Peperoni">Peperoni</option>
+                    <option value="mushroom">mushroom</option>
+                    <option value="cripsy">cripsy</option>
+                </select>
+            </td>
+            <td><button id="btn" class="btn btn-primary" class="col-sm-1" onclick="delivering()" >Checkout</button></td>
+            <td>
+                
+            </td>
             </tr>        
+            
 
 
-            </table>`).join("");
+            </table>`
+            
+            ).join("");
 
-    $total.innerHTML = "Ksh.:" + cartLS.total();
 
+    `<div class="container col-md-12">
+    <div class="k">`
+    $total.innerHTML = "Ksh.:" + cartLS.total();`
+
+    </div>
+    <div class="k">`
+    $total.innerHTML = "Ksh.:" + cartLS.total();`
+
+    </div><div class="k">`
+    $total.innerHTML = "Ksh.:" + cartLS.total();`
+
+    </div><div class="k">`
+    $total.innerHTML = "Ksh.:" + cartLS.total();`
+
+    </div>
+        
+        <div class="k">
+            
+        </div>
+    </div>`
     // 
     
 }
