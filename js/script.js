@@ -3,19 +3,22 @@ function delivering(){
     let btn=document.getElementById('btn');
     btn.onclick = () => {
         const result = checking.value;
+        let tot=cartLS.total();
     if(checking.checked != false){
         // alert(checking.checked);
         // alert("abc");
         let location=prompt("enter your delivery location");
+        
         function abc(){
             // renderCart(items);
-            alert("Dear user, Your Orders is being delivered to "+location);
+            alert("Dear user, Your Orders of total Ksh "+tot+" is being  processed and will be delivered to "+location);
             // prompt("Dear user, your ordde is being proccesed");
+            
         }
         abc();
     }
     else{
-        alert("Dear user, your order has been received and is being processed");
+        alert("Dear user, your order of Ksh "+tot+" has been received and is being processed");
     }
     };
 }
