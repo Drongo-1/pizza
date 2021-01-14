@@ -5,15 +5,10 @@ function delivering(){
         const result = checking.value;
         let tot=cartLS.total();
     if(checking.checked != false){
-        // alert(checking.checked);
-        // alert("abc");
         let location=prompt("enter your delivery location");
         
         function abc(){
-            // renderCart(items);
-            alert("Dear user, Your Orders of total Ksh "+tot+" is being  processed and will be delivered to "+location);
-            // prompt("Dear user, your ordde is being proccesed");
-            
+            alert("Dear user, Your Orders of total Ksh "+tot+" is being  processed and will be delivered to "+location);            
         }
         abc();
     }
@@ -47,9 +42,6 @@ function renderCart(items) {
                 <td class="text-right" class="col-sm-1">Ksh${item.price}</td>
                 <td class="text-right"><Button class="btn btn-primary" class="col-sm-1" onClick="cartLS.remove(${item.id})">Delete</Button></td>
             </tr>
-           
-
-
             </table>`
             
             ).join("");
@@ -61,9 +53,7 @@ function renderCart(items) {
 
     </div>
    
- </div>`
-    // 
-    
+ </div>`    
 }
 function abcd(){
        
